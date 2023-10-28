@@ -17,7 +17,7 @@
    box-sizing: border-box;
 }
 #b{
-   background-color: blue;
+   background: #000;
    box-sizing: border-box;
    overflow: hidden;
    overflow-y: scroll;
@@ -170,3 +170,67 @@
 ::-webkit-scrollbar{
   display: none;
 }
+.jugad-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.jugad-1>p{
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.jugad-1>p22{
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 80px;
+}
+.image-1-2{
+    display: flex;
+    align-items: center;
+}
+.p-1>p{
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.fa-solid{
+    margin-right: 5px;
+}
+.center-1>p{
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+.total-11{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #181818;
+}
+.image-1-2>p22{
+    padding: 5px;
+}
+.total-111{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.volume-slider {
+    border: none;
+    width: 800px;
+    /* Set your desired styles */
+    background-color: #EFEFEF; /* Background color */
+    height: 10px; /* Height of the track */
+    border-radius: 5px; /* Rounded edges */
+  }
